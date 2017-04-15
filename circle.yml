@@ -8,7 +8,7 @@ dependencies:
     - testspace config url http://095d8acfaaf71b4a0f3767e41152620ebdda1b31@mark.stridespace.com
     - testspace -v
     - echo NODE-$CIRCLE_NODE_INDEX
-    - printenv > printenv.txt
+    - printenv 
 
 test:
   override:
