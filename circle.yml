@@ -16,7 +16,7 @@ test:
         parallel: true
         files:
           - test.xml 
-          - printenv.txt 
+          - README.md 
   post:
     - testspace reports/*.*:
         parallel: true
